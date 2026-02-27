@@ -3,7 +3,7 @@
     function hasCharacter($array, $character) {
 
         foreach ($array as $item) {
-            if (strpos($item, $character) === false) {
+            if (stripos($item, $character) === false) {
                 return false;
             }
         }
